@@ -1,9 +1,6 @@
 
-PRIVACY_POLICY.md
-
-
-
 # Privacy Policy for TravelGuide
+
 **Last updated: December 26, 2025**
 TravelGuide ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by TravelGuide.
 
