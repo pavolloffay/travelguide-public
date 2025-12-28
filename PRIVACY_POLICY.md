@@ -17,7 +17,7 @@ We collect information that identifies, relates to, describes, references, is ca
 *   **User Content:** We collect text and voice inquiries you submit to our AI guide, as well as any feedback you provide.
 
 ### B. Information We Collect Automatically
-*   **Location Data (Crucial):** With your permission, we collect precise location data (GPS coordinates) to provide core features like nearby landmark recommendations reviews, and navigation. This may occur while the app is in the foreground or background, depending on your device settings.
+*   **Location Data (Crucial):** With your permission, we collect precise location data (GPS coordinates) to provide core features like nearby landmark recommendations and reviews. This may occur while the app is in the foreground or background, depending on your device settings.
 *   **Device Information:** We collect information about your mobile device, including unique device identifiers (e.g., IDFA, Android ID), IP address, operating system, and hardware model.
 *   **Usage Data:** We collect data on how you interact with the App, such as features used, time spent, and error logs.
 
@@ -50,9 +50,9 @@ We may share your information with the following third parties:
 
 *   **Service Providers:**
     *   **Google Firebase:** For authentication, backend hosting, database storage, and analytics.
-    *   **Mapbox:** To render maps and provide navigation services. Mapbox may collect location and usage data governed by their own privacy policy.
+    *   **Mapbox:** To render maps and provide map data. Mapbox may collect location and usage data governed by their own privacy policy.
     *   **RevenueCat:** For subscription management and purchase validation.
-    *   **Google Vertex AI:** To process your inquiries and generate travel content. **Note:** Voice and text inputs are sent to Google's cloud for processing but are not used by Google to train their models in a way that identifies you.
+    *   **Google AI:** To process your inquiries and generate travel content. **Note:** Voice and text inputs are sent to Google's cloud for processing but are not used by Google to train their models in a way that identifies you.
 
 *   **Legal Requirements:** We may disclose your information where required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
 
@@ -94,7 +94,7 @@ If you are a California resident, you have specific rights:
 ### GDPR (EEA/UK Residents)
 In addition to the general rights above, you have the right to lodge a complaint with a Data Protection Authority (DPA) if you believe we have violated your rights.
 
-To exercise any of these rights, please contact us at **support@travelguide.com**. We will respond to your request within 30 days (GDPR) or 45 days (CCPA).
+To exercise any of these rights, please contact us at **p.loffay@gmail.com**. We will respond to your request within 30 days (GDPR) or 45 days (CCPA).
 
 ## 9. Children's Privacy
 
@@ -108,4 +108,4 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions about this Privacy Policy, please contact us:
 
-*   By email: [support@travelguide.com](mailto:support@travelguide.com)
+*   By email: [p.loffay@gmail.com](mailto:p.loffay@gmail.com)
