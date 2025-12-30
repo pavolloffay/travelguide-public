@@ -1,15 +1,17 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Apple, Play, Map, Navigation, Globe, Heart, Youtube, Instagram, ChevronRight, Sparkles, MessageCircle } from 'lucide-react';
+import { Navigation, Sparkles, MessageCircle, Youtube, Instagram, Heart } from 'lucide-react';
 import { PhoneFrame } from './components/ui/PhoneFrame';
 import StoreDownloadButton from '../imports/StoreDownloadButton';
+import LegalPage from '../components/LegalPage';
+import { Routes, Route, Link } from 'react-router-dom';
 import logoImage from '../assets/344226a331ba1ca77b8c10b6d6c1c7754a0570bc.png';
 import appScreenshot from '../assets/2c7337a9768ee367c53ac993f4744aa51effd785.png';
 import appScreenshot2 from '../assets/506116e2a27c3d23d609137158d7a51c92059f33.png';
 import appScreenshot3 from '../assets/f91b732fb6735cd89a05a11893dfb57394a110cf.png';
 import appScreenshot4 from '../assets/4793c232bb52353ab5dc73bb4776b3c6a8f0de69.png';
 
-export default function App() {
+function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans selection:bg-white/20">
       {/* Hero Section */}
@@ -309,8 +311,8 @@ export default function App() {
           </div>
 
           <div className="flex justify-center gap-6 mb-8 text-sm text-neutral-500">
-            <a href="#" className="hover:text-neutral-300 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-neutral-300 transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="hover:text-neutral-300 transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-neutral-300 transition-colors">Terms of Service</Link>
           </div>
 
           <div className="text-neutral-600 text-sm flex items-center justify-center gap-1">
@@ -322,5 +324,15 @@ export default function App() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/privacy-policy" element={<LegalPage source="/PRIVACY_POLICY.md" title="Privacy Policy" />} />
+      <Route path="/terms" element={<LegalPage source="/TERMS_AND_CONDITIONS.md" title="Terms of Service" />} />
+    </Routes>
   );
 }
