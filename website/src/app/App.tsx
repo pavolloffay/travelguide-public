@@ -29,7 +29,7 @@ function Home() {
                 alt="TravelGuide Logo"
                 className="w-64 h-64 md:w-96 md:h-96 object-contain"
               />
-              <span className="text-4xl md:text-6xl font-bold text-white -mt-16 md:-mt-24">nunu</span>
+              <span className="text-4xl md:text-6xl font-bold text-white -mt-16 md:-mt-24">Nunu</span>
             </div>
           </motion.div>
 
