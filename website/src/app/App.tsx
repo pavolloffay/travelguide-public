@@ -58,13 +58,16 @@ function Home() {
             className="flex flex-col sm:flex-row gap-4 items-center justify-center"
           >
             {/* Google Play Store Button */}
-            <motion.button
+            <motion.a
+              href="https://play.google.com/store/apps/details?id=com.travelguide.development"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05, filter: "brightness(1.2)" }}
               whileTap={{ scale: 0.95 }}
-              className="w-44"
+              className="w-44 inline-block"
             >
               <StoreDownloadButton />
-            </motion.button>
+            </motion.a>
 
             {/* Apple App Store Button */}
             <motion.button
