@@ -12,6 +12,16 @@ import appScreenshot3 from '../assets/f91b732fb6735cd89a05a11893dfb57394a110cf.p
 import appScreenshot4 from '../assets/4793c232bb52353ab5dc73bb4776b3c6a8f0de69.png';
 
 function Home() {
+  const trackDownloadClick = (platform: string) => {
+    // @ts-ignore
+    if (window.gtag) {
+      // @ts-ignore
+      window.gtag('event', 'download_click', {
+        'platform': platform
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-black text-white font-sans selection:bg-white/20">
       {/* Hero Section */}
@@ -65,6 +75,7 @@ function Home() {
               whileHover={{ scale: 1.05, filter: "brightness(1.2)" }}
               whileTap={{ scale: 0.95 }}
               className="w-44 inline-block"
+              onClick={() => trackDownloadClick('android')}
             >
               <StoreDownloadButton />
             </motion.a>
@@ -74,6 +85,7 @@ function Home() {
               whileHover={{ scale: 1.05, backgroundColor: "rgb(64 64 64)" }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center justify-center gap-3 bg-neutral-800 text-white px-4 py-2.5 rounded-xl border border-neutral-700 w-44 min-h-[52px]"
+              onClick={() => trackDownloadClick('ios')}
             >
               <div className="w-7 h-7 flex-shrink-0 flex items-center justify-center">
                 <svg viewBox="0 0 24 24" className="w-full h-full object-contain" fill="currentColor">
