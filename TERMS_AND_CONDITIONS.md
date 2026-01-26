@@ -23,6 +23,7 @@ Travel Guide is a location-based mobile application that provides AI-powered tra
 *   **Credits:** The App operates on a credit-based system. To generate AI guides, you must purchase credits ("Premium Features"). Each generated guide consumes a specific number of credits.
 *   **Purchases:** You may purchase credits through the Apple App Store or Google Play Store. All purchases are final and non-refundable, except as required by applicable law.
 *   **No Expiration:** Purchased credits do not expire and are stored in your account until used.
+*   **Day Passes & Fair Usage Policy:** Day Passes provide "unlimited" access to generate AI guides during the validity period (3 or 7 days). To prevent abuse and ensure service stability, we enforce a **Fair Usage Policy (FUP)** limit of approximately 60 minutes of *newly generated* audio content per day. If you reach this limit, you will need to wait until the next day to generate new content or purchase additional credits.
 *   **Pricing:** We reserve the right to adjust pricing for credit packages at any time as we may determine in our sole discretion.
 
 ## 5. User Content and Conduct
