@@ -40,8 +40,10 @@ jobs:
         run: npm run build
         working-directory: website
 
-      - name: Copy CNAME
-        run: cp ../CNAME dist/
+      - name: Copy CNAME and create 404.html
+        run: |
+          cp ../CNAME dist/
+          cp dist/index.html dist/404.html
         working-directory: website
 
       - name: Setup Pages
