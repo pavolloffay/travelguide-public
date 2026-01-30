@@ -81,7 +81,10 @@ function Home() {
             </motion.a>
 
             {/* Apple App Store Button */}
-            <motion.button
+            <motion.a
+              href="https://apps.apple.com/ch/app/nunu-travelguide-city-guide/id6757429998"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05, backgroundColor: "rgb(64 64 64)" }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center justify-center gap-3 bg-neutral-800 text-white px-4 py-2.5 rounded-xl border border-neutral-700 w-44 min-h-[52px]"
@@ -96,7 +99,7 @@ function Home() {
                 <p className="font-sans text-[10px] uppercase font-medium text-neutral-300 leading-none mb-1">Download on the</p>
                 <div className="text-base font-bold text-neutral-100 leading-none">App Store</div>
               </div>
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </header>
