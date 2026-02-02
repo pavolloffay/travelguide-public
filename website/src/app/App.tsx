@@ -322,7 +322,7 @@ function Home() {
               <Youtube size={20} />
               <span className="text-sm">YouTube</span>
             </a>
-            <a href="https://www.instagram.com/nunutravelguide" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors flex items-center gap-2">
+            <a href="https://www.instagram.com/nunutravelguide_app" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors flex items-center gap-2">
               <Instagram size={20} />
               <span className="text-sm">Instagram</span>
             </a>
