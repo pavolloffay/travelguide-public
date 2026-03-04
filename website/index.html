@@ -60,7 +60,57 @@
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <!-- Static fallback content for SEO - React will hydrate over this -->
+    <div style="min-height:100vh;background:#000;color:#fff;font-family:system-ui,sans-serif;">
+      <header style="padding:80px 20px;text-align:center;">
+        <h1 style="font-size:3rem;font-weight:bold;margin-bottom:1rem;">Nunu</h1>
+        <p style="font-size:1.5rem;margin-bottom:0.5rem;">Your AI Travel Guide</p>
+        <p style="color:#999;max-width:600px;margin:0 auto 2rem;">
+          Unlock the world's stories for everyone. We provide high-quality, personalized AI audio tours
+          that turn any location into a journey of discovery.
+        </p>
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+          <a href="https://play.google.com/store/apps/details?id=com.travelguide.development"
+             style="background:#333;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;">
+            Get it on Google Play
+          </a>
+          <a href="https://apps.apple.com/ch/app/nunu-travelguide-city-guide/id6757429998"
+             style="background:#333;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;">
+            Download on App Store
+          </a>
+        </div>
+      </header>
+      <section style="padding:60px 20px;text-align:center;">
+        <h2 style="font-size:2rem;margin-bottom:2rem;">How it works</h2>
+        <div style="display:flex;gap:2rem;justify-content:center;flex-wrap:wrap;max-width:1000px;margin:0 auto;">
+          <div style="flex:1;min-width:250px;padding:20px;">
+            <h3>Explore</h3>
+            <p style="color:#999;">Find hidden gems and popular landmarks around you with our interactive map.</p>
+          </div>
+          <div style="flex:1;min-width:250px;padding:20px;">
+            <h3>Learn</h3>
+            <p style="color:#999;">Get instant AI-powered insights and historical facts about any landmark you discover.</p>
+          </div>
+          <div style="flex:1;min-width:250px;padding:20px;">
+            <h3>Deep dive</h3>
+            <p style="color:#999;">Deep dive into the landmark by asking follow up questions to your personal AI guide.</p>
+          </div>
+        </div>
+      </section>
+      <section style="padding:60px 20px;text-align:center;">
+        <h2 style="font-size:2rem;margin-bottom:1rem;">Available Destinations</h2>
+        <p style="color:#999;">Paris, Barcelona, Rome, London, New York, and 50+ cities worldwide</p>
+      </section>
+      <footer style="padding:40px 20px;text-align:center;border-top:1px solid #333;">
+        <p style="color:#666;">
+          <a href="/privacy-policy" style="color:#999;margin-right:20px;">Privacy Policy</a>
+          <a href="/terms" style="color:#999;">Terms of Service</a>
+        </p>
+        <p style="color:#444;margin-top:1rem;">Made with love in Switzerland</p>
+      </footer>
+    </div>
+  </div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
 
